@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">예약 시스템</string>
+    <string name="button_start">예약 시작</string>
+    <string name="button_end">예약 종료</string>
+    <string name="radio_date">날짜 설정</string>
+    <string name="radio_time">시각 설정</string>
+</resources>
