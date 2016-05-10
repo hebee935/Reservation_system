@@ -73,11 +73,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/button_end"
-            android:id="@+id/endbuttonId"/>
+            android:id="@+id/endbuttonId"
+            android:layout_marginRight="20dp"
+            />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2016년05월03일오후07시49분"
+            android:textColor="#1f9424"
             android:id="@+id/textViewId"/>
     </LinearLayout>
 
