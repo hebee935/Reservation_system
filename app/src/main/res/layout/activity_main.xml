@@ -51,16 +51,17 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <TimePicker
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/timePickerId"
-                android:timePickerMode="spinner"/>
             <CalendarView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/calendarviewId"
-                android:visibility="invisible"/>
+                android:visibility="visible"/>
+            <TimePicker
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/timePickerId"
+                android:visibility="invisible"
+                android:timePickerMode="spinner"/>
         </FrameLayout>
     </LinearLayout>
 
