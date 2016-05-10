@@ -37,12 +37,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/radio_date"
-            android:id="@+id/radioId1"/>
+            android:id="@+id/radioIdDate"/>
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/radio_time"
-            android:id="@+id/radioId2"/>
+            android:id="@+id/radioIdTime"/>
     </RadioGroup>
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,10 +51,11 @@
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-            <DatePicker
+            <TimePicker
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/datepickerId"/>
+                android:id="@+id/timePickerId"
+                android:timePickerMode="spinner"/>
             <CalendarView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
